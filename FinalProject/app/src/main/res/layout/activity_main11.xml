@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity11"
+    android:background="#f6f6e9">
+
+    <ImageView
+        android:id="@+id/imageViewP"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:padding="10dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textViewNA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/megrim"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#fd5f00"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewAD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/megrim"
+        android:text="TextView"
+        android:textAlignment="viewEnd"
+        android:textColor="#005792"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textViewHO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/megrim"
+        android:text="TextView"
+        android:textAlignment="viewEnd"
+        android:textColor="#005792"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textViewP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/megrim"
+        android:text="TextView"
+        android:textAlignment="viewEnd"
+        android:textColor="#005792"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/call_2"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#f6f6e9"
+            app:srcCompat="@drawable/ic_phone_call" />
+
+        <TextView
+            android:id="@+id/textView_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/megrim"
+            android:text="TextView"
+            android:textAlignment="viewEnd"
+            android:textColor="#005792"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</LinearLayout>

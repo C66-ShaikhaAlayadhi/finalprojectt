@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/A"
+        android:title="حولي"/>
+
+    <item
+        android:id="@+id/B"
+        android:title="مبارك الكبير" />
+
+    <item
+        android:id="@+id/C"
+        android:title="الفروانية" />
+    <item
+        android:id="@+id/D"
+        android:title="العاصمة" />
+</menu>

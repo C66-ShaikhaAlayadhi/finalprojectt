@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="#f6f6e9">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:paddingStart="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:scaleType="fitXY"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/megrim"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#005792"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hours"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="75dp"
+        android:fontFamily="@font/megrim"
+        android:text="TextView"
+        android:textColor="#007acd"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/hours2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="305dp"
+        android:layout_marginTop="75dp"
+        android:fontFamily="@font/megrim"
+        android:text="ساعات العمل:"
+        android:textAlignment="viewEnd"
+        android:textColor="#005792"
+        android:textSize="20sp" />
+
+
+
+</RelativeLayout>
